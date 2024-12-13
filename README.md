@@ -55,7 +55,7 @@ Enough data points to make your computer cry!
 
 The Tech Stack of Doom! 💀
 ```asci
-Copy          TECH STACK
+         TECH STACK
              |
     +--------+--------+
     |        |        |
