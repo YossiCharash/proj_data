@@ -19,6 +19,7 @@ Pandas analysis that would make a real panda proud! 🐼
 Enough data points to make your computer cry!
 
 The Tech Stack of Doom! 💀
+```asci
 Copy          TECH STACK
              |
     +--------+--------+
@@ -27,6 +28,7 @@ Copy          TECH STACK
     |        |        |
     +---[ PANDAS ]----+
          |     |
+```
     Statistics  Tears
 Installation (Good Luck!) 🍀
 
