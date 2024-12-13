@@ -53,18 +53,6 @@ More databases than you can shake a stick at! (Neo4j, MongoDB, GraphQL)
 Pandas analysis that would make a real panda proud! 🐼
 Enough data points to make your computer cry!
 
-The Tech Stack of Doom! 💀
-```asci
-         TECH STACK
-             |
-    +--------+--------+
-    |        |        |
-  Neo4j   MongoDB  GraphQL
-    |        |        |
-    +---[ PANDAS ]----+
-         |     |
-```
-    Statistics  Tears
 Installation (Good Luck!) 🍀
 
 Clone this repo (if you dare)
@@ -110,7 +98,7 @@ Coffee ☕
 Stack Overflow 🚀
 The rubber duck on my desk 🦆
 That one tutorial from 2015 that somehow still works
-
+```asci
    _____________________
   |  THANKS FOR READING |
   |    NOW GO STUDY!   |
@@ -120,6 +108,7 @@ That one tutorial from 2015 that somehow still works
               (__)\       )\/\
                   ||----w |
                   ||     ||
+```
 Future Plans 🔮
 
 Add more databases (because why not?)
