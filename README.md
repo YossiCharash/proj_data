@@ -119,7 +119,6 @@ World domination (pending)
 
 Made with ❤️ and excessive amounts of caffeine
 Remember: If you can't blind them with brilliance, baffle them with databases!
-Copy      END OF README
          |
          |
          v
