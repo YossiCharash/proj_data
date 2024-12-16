@@ -29,8 +29,9 @@ def send_message():
 
             data = message.value().decode('utf-8')
             print("The data com and insert to database")
-            # Insert הודעה למסד נתונים
-            insert_to_db(data)
+
+            if message is not None:  # לבדוק אם הודעה לא ריקה
+                insert_to_db(data)
 
     except KeyboardInterrupt:
         print("Process interrupted by user.")
@@ -42,16 +43,13 @@ def send_message():
 
 def insert_to_db(message):
     try:
-        if message is not None:  # לבדוק אם הודעה לא ריקה
-
             student_data = json.loads(message)
-            if 'id' in student_data:
-                del student_data['id']
+
             student = Students(
-                id=student_data[0],
+                id=int(student_data[0]),
                 first_name=student_data[1],
                 last_name=student_data[2],
-                age=student_data[3],
+                age=int(student_data[3]),
                 address=student_data[4]
             )
 

@@ -6,7 +6,7 @@ from database.elasticsearch.config import es
 
 
 
-def insert_data(data):
+def insert_data(data,index_name = "reviews"):
     mapping = {
         "mappings": {
             "properties": {
@@ -25,7 +25,6 @@ def insert_data(data):
         }
     }
 
-    index_name = "reviews"
 
     if not es.indices.exists(index=index_name):
         es.indices.create(index=index_name, body=mapping)
